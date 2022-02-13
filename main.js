@@ -4,4 +4,4 @@ mybtn.addEventListener("click", function() {
   var link = "https://Wa.me/";
   var output = link + 91 + data;
   mybtn.href = output;
-});
+}) ;
