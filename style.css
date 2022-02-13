@@ -11,6 +11,8 @@
   justify-content: center;
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  height: 100vh;
+  max-width: 100%;
 }
 
 #num {
@@ -28,4 +30,16 @@
   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(212, 109, 12, 0.9274043428725091) 35%, rgba(0, 212, 255, 1) 100%);
   color: white;
   text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#logo {
+  width: 100px;
+  margin-bottom: 20px
 }
