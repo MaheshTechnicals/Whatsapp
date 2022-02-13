@@ -52,3 +52,13 @@ h1 {
   max-width: 90%;
 
 }
+
+#credit{
+  color: white;
+  margin-top: 50px;
+} 
+
+a{
+  color: white;
+  text-decoration: none;
+} 
