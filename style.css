@@ -16,20 +16,20 @@
 }
 
 #num {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   padding: 10px;
   margin-bottom: 20px;
-  border: 2px solid white;
-  border-radius: 10%;
+  border: 2px solid yellow;
+  border-radius: 50px;
 }
 
 #btn {
   padding: 20px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(212, 109, 12, 0.9274043428725091) 35%, rgba(0, 212, 255, 1) 100%);
+  background: #25D366;
   color: white;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 h1 {
