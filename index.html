@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
-  <title>HTML</title>
+  <title>Whatsapp Direct Chat App</title>
 
   <!-- HTML -->
 
@@ -16,11 +16,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<! -- 
+structure of a app.
+-->
 <body>
 
   <div id="group">
+    
+   <! - - whatsapp logo.-->
+   
     <img id="logo" src="logo.png">
+    
+       <! - - Heading Title.-->
+    
     <h1>WhatsApp Direct Chat App</h1>
+    
+       <! - - country code selector.-->
+       
     <select class="input-block-level" id="countryCode" name="countryCode">
       <option data-countryCode="AF" value="93">&#x1F1E6&#x1F1EB Afghanistan (+93)</option>
       <option data-countryCode="AL" value="355">&#x1F1E6&#x1F1FD Albania (+355)</option>
@@ -256,23 +268,16 @@
       <option data-countryCode="ZW" value="263">&#x1F1FF&#x1F1FC Zimbabwe (+263)</option>
     </select>
 
-    <input type="tel" id="num" placeholder="Enter Your 10 digits number...">
+   <! - - Enter Your Phone number here.-->
+
+    <input type="tel" id="num" placeholder="Enter Your number.....">
+    
+       <! - - Chat Now Button.-->
 
     <a id="btn" href="#">Chat Now</a>
-
-
   </div>
 
-
-
-
-
-
-  <!-- Project -->
+  <!-- javascript file-->
   <script src="main.js"></script>
-
-
-
 </body>
-
 </html>
