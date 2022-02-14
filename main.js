@@ -5,6 +5,15 @@ mybtn.addEventListener("click", function() {
   var a = select.options[select.selectedIndex].value;
   var data = document.getElementById("num").value;
   var link = "https://Wa.me/";
-  var output = link + a + data;
-  mybtn.href = output;
+
+
+  if (data == "") {
+
+    alert("Please enter valid phone number");
+
+  } else {
+    var output = link + a + data;
+    mybtn.href = output;
+  }
+
 });
