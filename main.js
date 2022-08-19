@@ -17,5 +17,5 @@ mybtn.addEventListener("click", function() {
     mybtn.href = output;
 
   }
-  document.getElementById("num").value = "";
+  document.getElementById("num").value = null;
 });
